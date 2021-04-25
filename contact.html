@@ -13,54 +13,60 @@
         <!-- your header here -->
         
         
-<nav>
-    <div class="navbar navbar-inverse navbar-static-top">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href=".">Portfolio of Kelly Bulger</a>
-        </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+        <nav>
+            <div class="navbar navbar-inverse navbar-static-top">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href=".">Nifty Crafts</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+                
+                <main>
+            <style>
+                h1 {text-align: center;}
+                h2{text-align: center;
+                color: #008080}
+                p {text-align: center;}
+                div {text-align: center;}
+            </style>
+                <h1 id="contact-me">Contact Me</h1>
+        <h2 id="i-would-love-to-hear-from-you">We would love to hear from you!</h2>
+        <p>Please fill out the form below to send us a message. We will reply within 3 business days or as soon as possible.</p>
         
-        <main>
-    
-        <h1 id="contact-me">Contact Me</h1>
-<h2 id="i-would-love-to-hear-from-you">I would love to hear from you</h2>
-<p>Please fill out the form below to send me a message. I will reply within 3 business days.</p>
-
-        <form action="https://dry-bayou-18746.herokuapp.com/send/" method="POST">
-            <!-- add a div.form-group rather than the <br />-->
-            <div class="form-group">
-                <!-- give inputs the class form-control -->
-                <label>Name: <input name="name" placeholder="name" class="form-control" /></label>
-            </div>
-            <div class="form-group">
-                <label>Email:<input name="email" placeholder="email" type="email" class="form-control" /></label>
-            </div>
-            <div class="form-group">
-                <label>Phone Number:<input name="phone" placeholder="telephone" type="tel"
-                        class="form-control" /></label>
-            </div>
-            <div class="form-group">
-                <label>Message:<textarea name="message" placeholder="type your message here"
-                        class="form-control"></textarea></label>
-            </div>
-            <button type="submit">Send Message</button>
-
-        </form>
+                <form action="https://dry-bayou-18746.herokuapp.com/send/" method="POST">
+                    <!-- add a div.form-group rather than the <br />-->
+                    <div class="form-group">
+                        <!-- give inputs the class form-control -->
+                        <label>Name: <input name="name" placeholder="name" class="form-control" /></label>
+                    </div>
+                    <div class="form-group">
+                        <label>Email:<input name="email" placeholder="email" type="email" class="form-control" /></label>
+                    </div>
+                    <div class="form-group">
+                        <label>Phone Number:<input name="phone" placeholder="telephone" type="tel"
+                                class="form-control" /></label>
+                    </div>
+                    <div class="form-group">
+                        <label>Message:<textarea name="message" placeholder="type your message here"
+                                class="form-control"></textarea></label>
+                    </div>
+                    <div class= button1><button type="submit">Send Message</button></div>
         
-    </main>
+                </form>
+                
+            </main>
     
 <footer>
     &copy; <script>document.write(new Date().getFullYear())</script> Kelly Bulger
